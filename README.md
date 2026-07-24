@@ -3,14 +3,28 @@ SQL project analyzing pizza sales data.
 # 🍕 Pizza Sales Analysis using SQL
 
 ## Project Overview
+This project analyzes pizza sales data using SQL to answer business-related questions and generate insights.
 
-This project analyzes pizza sales data using SQL to answer business questions and generate business insights.
+## Dataset
+The project uses four tables:
+- orders
+- order_details
+- pizzas
+- pizza_types
 
 ## Tools Used
-
 - MySQL
 - SQL
 - GitHub
+
+## SQL Concepts Used
+- SELECT
+- JOIN
+- GROUP BY
+- ORDER BY
+- Aggregate Functions
+- CTE
+- Window Functions
 
 ## Business Questions
 
@@ -22,19 +36,21 @@ This project analyzes pizza sales data using SQL to answer business questions an
 - List the top 5 most ordered pizza types.
 
 ### Intermediate
-- Find the total quantity of each pizza category ordered.
-- Determine the distribution of orders by hour.
-- Find the category-wise distribution of pizzas.
-- Calculate the average pizzas ordered per day.
-- Determine the top 3 pizza types based on revenue.
+- Total quantity of each pizza category ordered.
+- Distribution of orders by hour.
+- Category-wise pizza distribution.
+- Average pizzas ordered per day.
+- Top 3 pizza types by revenue.
 
 ### Advanced
-- Calculate the percentage contribution of each pizza type to total revenue.
-- Analyze cumulative revenue over time.
-- Determine the top 3 pizza types by revenue within each category.
+- Percentage contribution of each pizza type to revenue.
+- Cumulative revenue over time.
+- Top 3 pizza types by revenue within each category.
 
-## Project Status
+## Files
+- `pizza_sales.sql` – SQL queries
+- `screenshots/` – Query output screenshots
 
-🚧 SQL queries completed.
-
-📄 A detailed PDF report with SQL queries, explanations, and results will be added soon.
+## Future Improvements
+- Add detailed PDF report
+- Build a Power BI dashboard
