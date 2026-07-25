@@ -5,12 +5,16 @@ SQL project analyzing pizza sales data.
 ## Project Overview
 This project analyzes pizza sales data using SQL to answer business-related questions and generate insights.
 
-## Dataset
-The project uses four tables:
-- orders
-- order_details
-- pizzas
-- pizza_types
+## 📂 Dataset
+
+The project is based on a pizza sales dataset consisting of four related tables:
+
+- **orders** – Contains order IDs, order dates, and order times.
+- **order_details** – Contains pizza orders and quantities.
+- **pizzas** – Contains pizza sizes and prices.
+- **pizza_types** – Contains pizza names, categories, and ingredients.
+
+These tables were joined using SQL to analyze sales performance and answer business-related questions.
 
 ## Tools Used
 - MySQL
